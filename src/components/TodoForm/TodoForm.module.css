@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  flex: 1;
+  min-width: 0;
+}
+
+.form button {
+  flex-shrink: 0;
+}

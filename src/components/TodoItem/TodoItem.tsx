@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Button } from '../Button';
+import { Button } from '../Button/Button';
 import type { Todo } from '../../types/todo';
 import styles from './TodoItem.module.css';
 

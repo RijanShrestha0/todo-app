@@ -1,5 +1,8 @@
-import { TodoForm, TodoList } from '../components';
-import { useTodos, useTodoFilters, useTodoForm } from '../hooks';
+import { TodoForm } from '../components/TodoForm/TodoForm';
+import { TodoList } from '../components/TodoList/TodoList';
+import { useTodos } from '../hooks/useTodos';
+import { useTodoFilters } from '../hooks/useTodoFilters';
+import { useTodoForm } from '../hooks/useTodoForm';
 
 const emptyMessages: Record<string, string> = {
   all: 'No todos yet. Add one above!',

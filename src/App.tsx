@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Layout } from './components';
-import { HomePage, ActivePage, CompletedPage } from './pages';
+import { Layout } from './components/Layout/Layout';
+import { HomePage } from './pages/HomePage';
+import { ActivePage } from './pages/ActivePage';
+import { CompletedPage } from './pages/CompletedPage';
 import './App.css';
 
 function App() {
